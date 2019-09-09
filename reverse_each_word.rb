@@ -3,3 +3,5 @@ new_array = array.split(" ")
   reversed_array = new_array.each {|x| x.reverse!}
   return reversed_array.join(" ")
 end
+
+def reversed_each_word
