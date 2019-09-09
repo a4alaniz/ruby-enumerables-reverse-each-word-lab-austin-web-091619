@@ -4,4 +4,5 @@ new_array = array.split(" ")
   return reversed_array.join(" ")
 end
 
-def reversed_each_word
+def reversed_each_word(array)
+  new_array = array.split(" ")
